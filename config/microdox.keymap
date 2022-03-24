@@ -9,8 +9,9 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    tapping-term-ms = <400>;
-};
+    flavor = "tap-preferred";
+    tapping-term-ms = <300>;
+}
 
 / {
         keymap {
