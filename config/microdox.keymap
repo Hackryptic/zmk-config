@@ -43,8 +43,8 @@
                         bindings = <
    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp SEMI;
    &kp A &hm LALT R &hm LCTRL S &hm LSHIFT T &kp G   &kp M &hm LSHIFT N  &hm LCTRL E  &hm LALT I   &kp O
-   &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp , &kp . &kp FSLH
-          &tog 3 &mo 2 &kp SPACE &kp RET &mo 1 &kp RALT
+   &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &kp FSLH
+          &mo 3 &mo 2 &kp SPACE &kp RET &mo 1 &kp RALT
                         >;
                 };
                 nav_layer {
@@ -55,7 +55,7 @@
 //             |     |      |     |   |     |      |      |
                         bindings = <
    &bt BT_CLR   &kp DEL      &kp RIGHT  &kp UP &kp LEFT     &kp TAB  &kp HOME &kp UP   &kp END   &kp DEL
-   &bt BT_SEL 0 &kp HOME &kp RALT &kp LCTRL &mo 3      &kp FSLH &kp LEFT &kp END &kp RIGHT &kp BSPC
+   &bt BT_SEL 0 &kp HOME &kp RALT &kp LCTRL &trans      &kp FSLH &kp LEFT &kp END &kp RIGHT &kp BSPC
    &bt BT_SEL 1 &trans      &trans   &trans    &trans     &kp BSLH &kp BSPC  &trans   &trans    &trans
                             &trans   &trans    &trans     &trans   &trans   &trans
                         >;
