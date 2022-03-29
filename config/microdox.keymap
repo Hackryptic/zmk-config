@@ -24,7 +24,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <175>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -64,14 +64,14 @@
 
                 nav_layer {
 // -----------------------------------------------------------------------------------------
-// | WIN    |  DEL   | RGT |  UP   | LEFT  |     |      |       |       |     |      |
-// | HOME   |        |     |       | TAB   |     |  /   |  DOWN |   END |     |      |
-// | BT_CLR | BT_NXT |     | PG_UP | PG_DN |     |  \   | BSPC  |   K/E |     |      |
+// | WIN    |  DEL   |     |        |       |     |   \   |       |       |     |      |
+// | HOME   |        |     |  RGT   | TAB   |     |  /    |  UP   |   END |     |      |
+// | BT_CLR | BT_NXT |     | PG_UP  | LEFT  |     |  DOwN | BSPC  |   K/E |     |      |
 //                |     |       |       |     |      |       |       |
                         bindings = <
-   &kp LEFT_WIN  &kp DEL     &kp RIGHT  &kp UP       &kp LEFT     &trans   &trans    &trans   &trans    &trans
-   &kp HOME      &trans      &trans     &trans      &kp TAB       &kp FSLH &kp DOWN  &kp END  &trans    &trans
-   &bt BT_CLR        &bt BT_NXT      &kp PG_UP  &kp PG_DN    &trans       &kp BSLH &kp BSPC  &kp LANG_HANGEUL   &trans    &trans
+   &kp LEFT_WIN  &kp DEL     &trand  &trand       &trans    &kp BSLH &trans   &trans   &trans    &trans
+   &kp HOME      &trans      &trans  &kp RIGHT    &kp TAB   &kp FSLH &kp UP   &kp END  &trans    &trans
+   &bt BT_CLR    &bt BT_NXT  &trand  &kp PG_DN    &kp LEFT    &kp DOWN &kp BSPC &kp LANG_HANGEUL   &trans    &trans
                             &trans   &trans    &trans     &trans   &trans   &trans
                         >;
                 };
