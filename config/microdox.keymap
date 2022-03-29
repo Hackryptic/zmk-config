@@ -69,9 +69,9 @@
 // | BT_CLR | BT_NXT |     | PG_UP  | LEFT  |     |  DOwN | BSPC  |   K/E |     |      |
 //                |     |       |       |     |      |       |       |
                         bindings = <
-   &kp LEFT_WIN  &kp DEL     &trand  &trand       &trans    &kp BSLH &trans   &trans   &trans    &trans
+   &kp LEFT_WIN  &kp DEL     &trans  &trans       &trans    &kp BSLH &trans   &trans   &trans    &trans
    &kp HOME      &trans      &trans  &kp RIGHT    &kp TAB   &kp FSLH &kp UP   &kp END  &trans    &trans
-   &bt BT_CLR    &bt BT_NXT  &trand  &kp PG_DN    &kp LEFT    &kp DOWN &kp BSPC &kp LANG_HANGEUL   &trans    &trans
+   &bt BT_CLR    &bt BT_NXT  &trans  &kp PG_DN    &kp LEFT  &kp DOWN &kp BSPC &trans   &trans    &trans
                             &trans   &trans    &trans     &trans   &trans   &trans
                         >;
                 };
