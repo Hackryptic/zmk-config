@@ -15,11 +15,7 @@
 }
 */
 
-
-
-
-/ {
-        &sk {
+&sk {
             release-after-ms = <1000>;
         };
 
@@ -34,6 +30,10 @@
             bindings = <&kp>, <&kp>;
         };
     };
+
+
+/ {
+        
 
         keymap {
                 compatible = "zmk,keymap";
