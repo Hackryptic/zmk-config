@@ -75,7 +75,7 @@
                         bindings = <
    &kp LEFT_WIN  &kp DEL     &trans     &trans        &trans    &kp BSLH &trans     &kp UP   &trans      &trans
    &kp HOME      &sk LALT    &sk LCTRL  &sk LSHIFT    &kp END   &kp FSLH &kp LEFT   &kp DOWN &kp RIGHT   &trans
-   &bt BT_CLR    &bt BT_NXT  &trans     &kp TAB       &trans    &trans   &kp BSPC   &trans   &trans      &trans
+   &bt BT_CLR    &bt BT_NXT  &trans     &kp TAB       &trans    &kp LANG_HANGEUL   &kp BSPC   &trans   &trans      &trans
                             &trans   &trans    &trans     &trans   &trans   &trans
                         >;
                 };
