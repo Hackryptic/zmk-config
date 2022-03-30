@@ -19,7 +19,7 @@
             release-after-ms = <1000>;
         };
 
-        ;
+        
 
 
 / {
@@ -33,7 +33,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-    }
+    };
 
         keymap {
                 compatible = "zmk,keymap";
