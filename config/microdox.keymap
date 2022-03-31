@@ -74,8 +74,8 @@
 //                |     |       |       |     |      |       |       |
                         bindings = <
    &kp LEFT_WIN  &kp DEL     &trans     &trans        &trans    &kp BSLH &trans     &kp UP   &trans      &trans
-   &kp HOME      &sk LALT    &sk LCTRL  &sk LSHIFT    &kp END   &kp FSLH &kp LEFT   &kp DOWN &kp RIGHT   &trans
-   &trans        &trans      &trans     &kp TAB       &trans    &kp LANG_HANGEUL   &kp BSPC  &trans      &trans      &trans
+   &kp HOME      &sk LALT    &sk LCTRL  &sk LSHIFT    &kp END   &kp BSPC &kp LEFT   &kp DOWN &kp RIGHT   &trans
+   &trans        &trans      &trans     &kp TAB       &trans    &kp LANG_HANGEUL   &trans  &trans      &trans      &trans
                             &trans   &trans    &trans     &trans   &trans   &trans
                         >;
                 };
