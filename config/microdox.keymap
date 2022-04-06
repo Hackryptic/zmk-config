@@ -77,7 +77,7 @@
    &kp HOME      &sk LALT    &sk LCTRL  &sk LSHIFT    &trans   &kp BSPC           &kp LEFT   &kp DOWN &kp RIGHT   &kp SINGLE_QUOTE
    &trans        &trans      &trans     &kp TAB       &trans    &kp LANG_HANGEUL   &trans     &trans   &kp QUESTION   &kp FSLH
                             &trans   &trans    &trans     &trans   &trans   &trans
-                        >;~
+                        >;
                 };
 
                 num_sym_layer {
