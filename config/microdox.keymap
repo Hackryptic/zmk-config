@@ -73,7 +73,7 @@
 // | BT_CLR | BT_NXT |     | PG_UP  | LEFT  |     |  DOwN | BSPC  |   K/E |     |      |
 //                |     |       |       |     |      |       |       |
                         bindings = <
-   &kp LEFT_WIN  &kp DEL     &trans     &trans        &trans    &kp BSLH           &trans     &kp UP   &trans      &kp DOUBLE_QUOTE
+   &kp LEFT_WIN  &kp DEL     &trans     &trans        &trans    &kp BSLH           &trans     &kp UP   &trans      &kp DOUBLE_QUOTES
    &kp HOME      &sk LALT    &sk LCTRL  &sk LSHIFT    &kp END   &kp BSPC           &kp LEFT   &kp DOWN &kp RIGHT   &kp SINGLE_QUOTE
    &trans        &trans      &trans     &kp TAB       &trans    &kp LANG_HANGEUL   &trans     &trans   &trans      &kp FSLH
                             &trans   &trans    &trans     &trans   &trans   &trans
@@ -102,9 +102,9 @@
 // | BT_CLR | BT_NXT |     | PG_UP  | LEFT  |     |  DOwN | BSPC  |   K/E |     |      |
 //                |     |       |       |     |      |       |       |
                         bindings = <
-   &trans  &trans     &trans     &trans        &trans &trans   &kp F1 &kp F2     &kp F3   &kp F4 
-   &trans      &sk LALT    &sk LCTRL  &sk LSHIFT    &kp END   &kp BSPC           &kp F5   &kp F6 &kp F7   &kp F8
-   &trans        &trans      &trans     &kp TAB       &trans    &kp LANG_HANGEUL   &kp F9    &kp F10   &kp F11     &kp F12
+   &trans      &trans      &trans     &trans        &trans    &trans   &kp F1    &kp F2    &kp F3   &kp F4 
+   &trans      &sk LALT    &sk LCTRL  &sk LSHIFT    &kp END   &trans   &kp F5    &kp F6    &kp F7   &kp F8
+   &trans      &trans      &trans     &kp TAB       &trans    &trans   &kp F9    &kp F10   &kp F11  &kp F12
                             &trans   &trans    &trans     &trans   &trans   &trans
                         >;
                 };
