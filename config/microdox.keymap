@@ -73,7 +73,7 @@
 // | BT_CLR | BT_NXT |     | PG_UP  | LEFT  |     |  DOwN | BSPC  |   K/E |     |      |
 //                |     |       |       |     |      |       |       |
                         bindings = <
-   &kp ESC  &kp DEL     &kp END     &trans        &trans    &kp BSLH           &trans     &kp UP   &trans      &kp DOUBLE_QUOTES
+   &kp ESC  &kp DEL     &kp END     &trans        &trans    &kp BSLH           &trans     &kp UP   &kp PAUSE_BREAK      &kp DOUBLE_QUOTES
    &kp HOME      &sk LALT    &sk LCTRL  &sk LSHIFT    &trans   &kp BSPC           &kp LEFT   &kp DOWN &kp RIGHT   &kp SINGLE_QUOTE
    &trans        &trans      &trans     &kp TAB       &trans    &kp LANG_HANGEUL   &trans     &trans   &kp QUESTION   &kp FSLH
                             &trans   &trans    &trans     &trans   &trans   &trans
